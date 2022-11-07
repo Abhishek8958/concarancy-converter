@@ -1,0 +1,115 @@
+body{
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+#container{
+   
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px black;
+    background-color: rgb(206, 216, 224);
+    width: 50%;
+   
+    margin: 10% auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+ 
+}
+.first{
+
+  width: 80%;
+  display: flex;
+  margin-bottom: 30px;
+}
+.secand{
+    width: 80%;
+    display: flex;
+    margin-bottom: 30px;
+}
+.third{
+
+    display: flex;
+    width: 80%;
+    margin-bottom: 30px;
+
+}
+#from{
+    display: inline-block;
+    /* width: 20rem; */
+    width: 80%;
+   margin: 10px auto;
+    padding: 7px;
+
+}
+#To{
+  display: inline-block;
+  /* margin-left: 34px; */
+  margin: 10px auto;
+  width: 80%;
+  padding: 7px;
+}
+#btn{
+    display: inline-block;
+    width: 20%;
+    border-radius: 100px;
+  /* align-self: center; */
+    margin-bottom: 30px;
+    border-style: none;
+    background-color: rgb(244, 244, 244);
+   
+ margin-left: 140px;
+ padding: 7px;
+}
+#btn:hover{
+    box-shadow: 0px 0px 5px 1px black;
+}
+#btn:active{
+    box-shadow: 0px 0px 5px 1px rgba(97, 166, 222, 0.811);
+    background-color: rgb(87, 85, 81);
+    color: wheat;
+}
+#ans{
+    display: inline-block;
+    width: 80%;
+    padding: 7px;
+    
+   
+}
+.set{
+   /* border: 2px solid; */
+   font-size: 1.5rem;
+    padding: 10px;
+    display: inline-block;
+   width: 120px;
+}
+
+.data{
+
+  font: weight 1px;
+    box-shadow: 0px 0px 7px 1px black;
+    background-color: rgb(206, 216, 224);
+    width: 49.5%;
+   padding: 10px;
+    margin: 2.5% auto;
+    font-size: 1.5rem;
+    display: none;
+
+
+}
+
+.data1{
+
+    font: weight 1px;
+      box-shadow: 0px 0px 7px 1px black;
+      background-color: rgb(206, 216, 224);
+      width: 49.5%;
+     padding: 10px;
+     font-size: 2rem;
+      margin: 2.5% auto;
+      display: none;
+  
+  
+  }
